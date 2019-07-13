@@ -1,0 +1,27 @@
+page {
+  background: #f7f7f7;
+}
+
+.title {
+  font-weight: 200;
+  justify-content: center;
+  text-align: center;
+}
+.img-center{
+  justify-content: center;
+  margin: 0 auto ;
+  padding-left: 10px;
+}
+.text-right{
+  justify-content: right;
+  text-align: right;
+  margin-right: 45px;
+}
+.text-Highway{
+  padding: 10px 10px 10px 20px;
+}
+.croButton{
+  width:82%;
+  justify-content: center;
+  margin:15px auto;
+}

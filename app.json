@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/tabs/tabs",
+    "pages/cronopio/cronopio"
+    
+  ],
+  "window": {
+    "defaultTitle": "科塔萨尔"
+  }
+}

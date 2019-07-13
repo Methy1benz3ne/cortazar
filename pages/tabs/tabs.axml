@@ -1,0 +1,25 @@
+<view class="width82 title">
+
+  <list class="list">
+    <view slot="header">
+      Julio Cortazar
+    </view>
+    <block a:for="{{items2}}" class="list margin">
+      <list-item
+        onClick="onItemClick"
+        index="{{index}}"
+        key="items2-{{index}}"
+        last="{{index === (items2.length - 1)}}"
+        class = "margin">
+       {{item.title}}
+        <!-- <view class="am-list-brief">{{item.brief}}</view> -->
+        <!-- <view a:if="{{item.extra}}" slot="extra"> -->
+          <!-- {{item.extra}} -->
+        <!-- </view> -->
+      </list-item>
+    </block>
+    <view slot="footer">
+      Miniprogram by Methy1benz3ne
+    </view>
+  </list>
+</view>

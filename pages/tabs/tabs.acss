@@ -1,0 +1,21 @@
+.title{
+  font-weight: 120;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.width82{
+  width: 82%;
+}
+
+.list{
+  justify-content: center;
+  text-align: center;
+  padding: 10px auto;
+}
+.margin{
+  margin:20px;
+}
+.am-list-content{
+  justify-content: center;
+  text-align: center;
+}

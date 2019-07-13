@@ -1,0 +1,19 @@
+<!-- 小程序收藏组件，更多高级用法请参考文档：https://docs.alipay.com/mini/component/component-favorite -->
+<!--<favorite>收藏小程序，下次使用更方便</favorite> -->
+<view class="myBox">
+  <view class="img1">
+    <image mode="aspectFit" src="https://xaivbffi.cdn.bspapp.com/2124497126-julio/6e5ee270-671f-11e9-8c6f-4fa1050abd68.jpg" class="img-center"/>
+  </view>
+  <view class="title">
+  {{name}}
+  </view>
+  <view class="title">
+  {{engName}}
+  </view>
+  <view class="text-Highway" space="emsp"><text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{text}}</text></view>
+  <view class="text-right">————南方高速</view>
+<view>
+  <button onTap="navi" type="primary" class= "croButton">Cronopios!</button>
+</view>
+</view>
+

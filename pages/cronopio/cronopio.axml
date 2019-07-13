@@ -1,0 +1,8 @@
+
+ <view class="myBox newBox">
+   <view class="title">{{title}}
+     </view>
+   <view class= 'introduction'>
+   <text>{{text}}
+</text></view>
+  </view>

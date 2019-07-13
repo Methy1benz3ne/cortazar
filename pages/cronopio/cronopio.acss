@@ -1,0 +1,17 @@
+page{
+  display: flex;
+}
+.title{
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 200;
+}
+.newBox{
+  justify-content: center;
+  margin-top:20px;
+  margin-bottom: 100px;
+}
+.introduction{
+  margin: 10px 15px 0 15px;
+}
